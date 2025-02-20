@@ -155,9 +155,14 @@ span {
 }
 /* Mobile devices (portrait) */
 @media screen and (max-width: 480px) {
+    body{
+        align-items: flex-start;
+        margin-top: 30%;
+        overflow: hidden;
+    }
     #game {
         width: 95%;
-        height: 90%;
+        height: 60%;
     }
     
     .Game-name h1 {
